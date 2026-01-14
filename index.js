@@ -81,5 +81,5 @@ function bigShoeRebounds() {
 }
 
 function out(result) {
-    document.getElementById("output").textContent = JSON.stringify(result);
+    document.getElementById("output").textContent = JSON.stringify(result, null, 2);
 }
